@@ -1,0 +1,212 @@
+
+nav{
+    width: 100% !important;
+    display: flex !important;
+    justify-content:space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    background-color: rgb(199, 149, 85);
+    position: relative !important;
+}
+#logo img{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50px !important;
+}
+
+nav .nav-links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .nav-links ul li{
+    list-style: none !important;
+    margin: 0px 15px !important;
+    font-size: 20px !important;
+}
+nav .navlinks ul li a{
+    text-decoration: none;
+    color: #851e1e;
+}
+.home a,.contact a,.services a,.about a{
+    background-color:rgb(233, 233, 143);
+    color: rgb(20, 20, 15);
+    padding: 10px !important;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.home a:hover,.contact a:hover,.services .about a:hover{
+    color: blue;
+}
+.BUTTON button{
+    padding: 15px 15px;
+    border:rgb(189, 122, 35);
+    outline: none;
+    background-color: rgb(199, 149, 85);
+    color: #000000;
+    font-size:bold ;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.BUTTON{
+    text-align: center;
+}
+
+#home{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 3px 200px !important;
+    height: 488px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+body{
+    height:50px;
+    background-image: url('https://img.freepik.com/premium-photo/coffee-beans-aesthetic-scenery-background_1002555-6119.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 298px;
+    justify-content: center;
+    align-items: center;
+} */
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*services Section*/
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid burlywood;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color:beige;
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+/*Clients Section*/
+#client-section{
+    height: 344px;
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("https://th.bing.com/th/id/OIP.rg8HPscUr3bBcJEmRVr0dQHaEo?rs=1&pid=ImgDetMain") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 128px;
+}
+
+/*Contact Section*/
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url("https://th.bing.com/th/id/R.4666f2a5ac9b5a94925943f72101377e?rik=D5MUfubzFAZXTg&pid=ImgRaw&r=0") no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+footer{
+    background: rgb(199,149 , 85);
+    color:beige;
+    padding: 9px 20px;
+}
+
+
+
+/* Utility Classes */
+
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    color: black;
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(158, 37, 37);
+    background-color: rgb(45, 175, 114);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+
